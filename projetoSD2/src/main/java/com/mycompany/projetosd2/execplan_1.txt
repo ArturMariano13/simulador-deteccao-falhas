@@ -1,0 +1,4 @@
+#;#;<server>;<window size>;<margin>;<set numbser>;<threshold>;<alfa>
+1;100;150000000;3;18;8
+1;100;200000000;3;18;8
+1;100;400000000;3;18;8
