@@ -35,7 +35,7 @@ public class ProjetoSD2 {
                 p = Integer.parseInt(sArray[0]); // processo monitor
                 sizeList = Integer.parseInt(sArray[1]);    // size window   número de heartbeats que vai considerar para o cálculo
                 margin = Long.parseLong(sArray[2]); // safety margin      margem de segurança mais x tempo ficará esperando a mensagem
-                trace = "C:\\IFSUL\\7_semestre\\SD2\\projetoSD2\\src\\main\\java\\com\\mycompany\\projetosd2\\trace2.log";                
+                trace = "C:\\IFSUL\\7_semestre\\SD2\\projetoSD2\\src\\main\\java\\com\\mycompany\\projetosd2\\trace.log";                
                 System.out.println(p + "|" + sizeList + "|" + margin + "|" +
                         trace);
                 DFTeste test = new DFTeste(sizeList, margin, trace);
